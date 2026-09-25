@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente IA</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="contenedor">
+
+        <header>
+            <h1>🤖 Asistente Inteligente</h1>
+            <p>Realiza una consulta sobre la documentación disponible.</p>
+        </header>
+
+        <section id="chat" class="chat">
+
+            <div class="mensaje bot">
+                ¡Hola! 👋<br><br>
+                Escribí una pregunta y trataré de responder utilizando únicamente la documentación disponible.
+            </div>
+
+        </section>
+
+        <form id="chatForm" class="entrada">
+
+            <input
+                type="text"
+                id="pregunta"
+                placeholder="Escribe tu consulta..."
+                autocomplete="off"
+                required>
+
+            <button type="submit">
+                Enviar
+            </button>
+
+        </form>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
