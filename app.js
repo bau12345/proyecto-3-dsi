@@ -1,5 +1,5 @@
 // ⚠️ Reemplaza esta URL con el Webhook de producción de tu escenario en Make
-const MAKE_WEBHOOK_URL = "https://us2.make.com/2494518/scenarios/6397679/edit";
+const MAKE_WEBHOOK_URL = "https://hook.us2.make.com/hlmi8tppcar3x9el8q20qwyycbxm1lgh";
 
 const chat = document.getElementById("chat");
 const formulario = document.getElementById("chatForm");
